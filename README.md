@@ -8,8 +8,9 @@
 > I don't install Boradcom Wi-Fi card, if you need it, find driver by yourself.
 
 ---
-## Working system
+## Working version
 
+-OpenCore 0.58
 - macOS 10.15.4
 
 ---
