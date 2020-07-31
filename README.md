@@ -10,7 +10,7 @@
 ---
 ## Working version
 
--OpenCore 0.58
+- OpenCore 0.5.8
 - macOS 10.15.4
 
 ---
