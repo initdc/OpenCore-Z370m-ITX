@@ -5,18 +5,21 @@
 - MainBoard: ASRock Z370m-ITX
 - GPU Card: RX580
 
-> I don't install Boradcom Wi-Fi card, if you need it, find driver by yourself.
+> I tried enable Intel Wi-Fi and bluetooth, but I can't boot my os with `Apple Secure Boot: defult` option in OpenCore, so I disale it.
 
+> Luckily I have some DW1820a, so when I am get time, I
+can easily replace it. ( In fact, not easily )
 ---
 ## Working version
 
-- OpenCore 0.5.8
+- OpenCore 0.6.7
 - macOS 10.15.4
 
 ---
-## Working features
+## Not Working features
 
-- Everything works well
+- Intel I211 Network Interface
+- Intel Wi-Fi and bluetooth
 
 ---
 ## Thanks to 
