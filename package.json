@@ -1,6 +1,6 @@
 {
   "name": "opencore-z370m-itx",
-  "version": "0.7.0",
+  "version": "0.7.0-net",
   "description": "The OpenCore config for ASRock Z370m ITX",
   "main": "index.js",
   "scripts": {
