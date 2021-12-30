@@ -9,10 +9,12 @@
 
 - OpenCore 0.6.7
 - macOS 10.15.7
+- Broadcom Bluetooth
 
 ## Not Working features
 
-- Intel Wi-Fi and bluetooth
+- Broadcom Wi-Fi
+- Airdrop
 
 ## Thanks to 
 
