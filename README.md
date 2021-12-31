@@ -1,4 +1,6 @@
-# The Z370m-ITX OpenCore Profile
+# OpenCore-Z370m-ITX
+
+> The OpenCore config for ASRock Z370m ITX
 
 ## Working hardware
 
@@ -14,16 +16,20 @@
 # Working features
 
 - iGPU HDMI and DP
+- AMD GPU DP
+  - (10 Bit Color-Depth)
 - Broadcom Bluetooth
 
 ## Not Working features
 
+- AMD GPU HDMI
 - Broadcom Wi-Fi
-- Airdrop
+- AirDrop
 
 ## Keypoint config
 
 BIOS
+
 ```shell
 # Chipset
 
@@ -31,6 +37,7 @@ Wi-Fi       Disable
 ```
 
 config.plist
+
 ```shell
 # DevicesProperties >
 # PciRoot(0x0)/Pci(0x2,0x0)
@@ -40,15 +47,17 @@ AAPL,ig-platform-id     07009B3E
 
 # PlatformInfo > Generic
 # macOS 10.15+
-System Product Name     iMac19,1 
+System Product Name     iMac19,1
 # macOS 10.13+
-System Product Name     iMac18,3 
+System Product Name     iMac18,3
 
 
 # UEFI > APFS
 MinDate -1      MinVersion  -1
 ```
 
-## Thanks to 
+## Thanks to
 
 - The [OpenCore](https://github.com/acidanthera/OpenCorePkg) Project and its team
+
+- The [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html) # Desktop Coffee Lake
